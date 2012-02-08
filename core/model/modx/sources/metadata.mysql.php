@@ -13,5 +13,6 @@ $xpdo_meta_map = array (
   array (
     0 => 'modFileMediaSource',
     1 => 'modS3MediaSource',
+    2 => 'modCFMediaSource',
   ),
 );

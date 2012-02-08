@@ -40,6 +40,8 @@ $_lang['source_type.file'] = 'File System';
 $_lang['source_type.file_desc'] = 'A filesystem-based source that navigates your server\'s files.';
 $_lang['source_type.s3'] = 'Amazon S3';
 $_lang['source_type.s3_desc'] = 'Navigates an Amazon S3 bucket.';
+$_lang['source_type.cf'] = 'Cloud Files';
+$_lang['source_type.cf_desc'] = 'Navigates a Rackspace Cloud Files container.';
 $_lang['source_types'] = 'Source Types';
 $_lang['source_types.intro_msg'] = 'This is a list of all the installed Media Source Types you have on this MODX instance.';
 $_lang['source.access.intro_msg'] = 'Here you can restrict a Media Source to specific User Groups and apply policies for those User Groups. A Media Source with no User Groups attached to it is available to all manager users.';
@@ -70,3 +72,16 @@ $_lang['prop_s3.thumbnailQuality_desc'] = 'The quality of the rendered thumbnail
 $_lang['prop_s3.thumbnailType_desc'] = 'The image type to render thumbnails as.';
 $_lang['prop_s3.url_desc'] = 'The URL of the Amazon S3 instance.';
 $_lang['s3_no_move_folder'] = 'The S3 driver does not support moving of folders at this time.';
+
+/* cf source type */
+$_lang['container'] = 'Container';
+$_lang['prop_cf.container_desc'] = 'The Cloud Files Container to load your data from.';
+$_lang['prop_cf.servicenet_desc'] = 'Should the connection to Cloud Files be made over servicenet or the internet.';
+$_lang['prop_cf.username_desc'] = 'The Rackspace Cloud Files username for authentication to the account.';
+$_lang['prop_cf.imageExtensions_desc'] = 'A comma-separated list of file extensions to use as images. MODX will attempt to make thumbnails of files with these extensions.';
+$_lang['prop_cf.key_desc'] = 'The Rackspace Cloud Files API Key for authentication to the account.';
+$_lang['prop_cf.skipFiles_desc'] = 'A comma-separated list. MODX will skip over and hide files and folders that match any of these.';
+$_lang['prop_cf.thumbnailQuality_desc'] = 'The quality of the rendered thumbnails, in a scale from 0-100.';
+$_lang['prop_cf.thumbnailType_desc'] = 'The image type to render thumbnails as.';
+$_lang['prop_cf.url_desc'] = 'The CDN URL of the Rackspace Cloud Files container.';
+$_lang['cf_no_move_folder'] = 'The CloudFiles driver does not support moving of folders at this time.';
